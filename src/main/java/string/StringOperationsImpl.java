@@ -1,4 +1,4 @@
-package datastructures.string;
+package string;
 
 import java.util.*;
 import java.util.stream.Collectors;

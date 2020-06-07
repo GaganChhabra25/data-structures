@@ -1,4 +1,4 @@
-package datastructures.string;
+package string;
 
 import org.junit.Assert;
 import org.testng.annotations.BeforeClass;
@@ -12,7 +12,7 @@ public class StringTest {
 
     @BeforeClass
     public void setup() {
-         stringOperations = new datastructures.string.StringOperationsImpl();
+         stringOperations = new StringOperationsImpl();
     }
 
     @Test

@@ -1,4 +1,4 @@
-package datastructures.stack;
+package stack;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -8,7 +8,7 @@ public class StackTest {
 
     @Before
     public void setup() {
-        stackOperations = new datastructures.stack.StackOperationsImpl();
+        stackOperations = new stack.StackOperationsImpl();
     }
 
     @Test
